@@ -1,0 +1,42 @@
+1 - Para executar arquivo '~.sh', basta digitar './nome_do_arquivo.sh'
+2 - $USER é uma variável de ambiente que representa o usuário atual.
+3 - Definir variável shell script com comando: 
+    Exemplo: exibir=`ls -l`
+    Barra invertida \ serve para ignorar o caractere seguinte.
+    Ponto e vírgula ; indica quebra de linha
+
+4 - COMANDOS:
+stdout = saída padrão, tela
+stdin = entrada padrão, teclado
+stderr = saída de erro padrão, tela
+> = redirecionamento de saída (sobrescreve)
+>> = redirecionamento de saída (incremento)
+2> = redirecionamento de erro
+< = redirecionamento de entrada
+| = concatena uma saída em uma entrada
+/dev/null = lixeira no linux
+ps aux = processos em execução na máquina
+grep = pesquisa
+read = lê entrada e a armazena
+&1 = saída padrão (tela)
+
+5 - EXPRESSÕES ARITMÉTICAS Shellscript(expr, echo):
+    (COMANDO expr)
+    expr 1 + 1
+    expr 2 \* 2
+    expr 2 - 2
+    expr 2 \ 2
+
+    (COMANDO echo)
+    echo $(((2+3)*5))
+    tres=3
+    echo $(((2+tres)*5))
+
+6 - VARIÁVEIS:
+    $0 a $9 Parâmetros possíveis
+    ${10} Referencia ao parâmetro 10
+    $0 Significa o próprio programa
+    $* Utiliza todos os parâmetros usados como string única
+    $? Saber se foi executado com sucesso ou não [1 ou 0]
+    $# Saber quantidade de parâmetros inseridos pelo usuário
+
