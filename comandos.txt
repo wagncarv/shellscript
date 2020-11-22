@@ -40,3 +40,55 @@ read = lê entrada e a armazena
     $? Saber se foi executado com sucesso ou não [1 ou 0]
     $# Saber quantidade de parâmetros inseridos pelo usuário
 
+7 - COMANDOS DE COMPARAÇÃO:
+    -eq igual
+    -ne diferente
+    -gt maior
+    -lt menor
+    -o ou
+    -d se for um diretório
+    -e se existir
+    -z se estiver vazio
+    -f se contiver texto
+    -O se o usuário for o dono
+    -r se o arquivo puder ser lido
+    -w se o arquivo puder ser alterado
+    -x se o arquivo puder ser executado
+
+8 - ESTRUTURAS DE CONTROLE
+    if [4 -gt 3] # Se 4 for maior que 3
+    if [$2 -lt 4] # Se o segundo parâmetro for menor que 4
+    if [$var1 -eq $var2] # Se a variável 1 for igual a variável 2
+    if [`ls /teste` -z] # Se diretório estiver vazio
+    if [bola = bola] # comparação entre strings
+    if [$var3 = bola] # compara o conteúdo da variável 3 com a string "bola"
+
+9 - LAÇOS DE REPETIÇÃO:
+### for ####
+for((x=0;x<=10;x++))
+do
+    echo "$x"
+done
+
+for i in $(seq 10) # i assumirá valores de 0 a 10
+
+for i in $(cat arquivo.txt) # i assumirá valor de cada linha i
+
+for i in param(1-5) # i assumirá valores de parãmetros 1 a 5
+
+### while ####
+while [expressão]
+do
+    <comando1> 
+    <comando2>
+done
+
+### until ####
+until [expressão]
+do
+    <comando1> 
+    <comando2>
+done
+
+
+
