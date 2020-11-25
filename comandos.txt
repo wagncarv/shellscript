@@ -90,5 +90,20 @@ do
     <comando2>
 done
 
+10 - COMANDOS DE BUSCA:
+grep - com ou sem regex
+egrep - regex completas
+fgrep - regex sem metacaracteres
+cut - 
+tr - 
+sed -
+awk - 
+
+## EXEMPLOS
+grep [palavra-chave] [arquivo]
+a) grep --color root /etc/passwd
+b) 
+
+
 
 
