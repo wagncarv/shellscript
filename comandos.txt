@@ -91,19 +91,29 @@ do
 done
 
 10 - COMANDOS DE BUSCA:
-grep - com ou sem regex
+grep - com ou sem regex. sintaxe: grep [palavra-chave] [arquivo]
 egrep - regex completas
 fgrep - regex sem metacaracteres
 cut - corta pedaços da saída de exibição
-tr - 
-sed -
+tr - substitui um caractere por outro - ex.: grep root /etc/passwd | tr ":" "_"
+sed - editor de texto. sintaxe: sed [endereço][ação][arquivo]:
+    d - deletar
+    p - imprime novamente a linha ou palavra
+    b - não faça nada nestas linhas
+    q - se não encontrar algo, saia
+    s - substitui uma palavra por outra
+    -n - silencia o sed , mostrando apenas a linha que combina
+    ! - negação
 awk - 
 
 ## EXEMPLOS
-grep [palavra-chave] [arquivo]
 a) grep --color root /etc/passwd
 b) grep --color -i sql /etc/passwd
 c) grep -o -i sql /etc/passwd
+d) cat /etc/passwd | grep -i root | cut -d":" -f7
+e) cat /etc/passwd | grep -i root | cut -b5-7
+f) grep bash /etc/passwd | cut -d":" -f1 | tr "\n" ":"
+g) ls -l | tr -s " "
 
 11 - USUÁRIO:
 ##EXPLICAÇÃO
