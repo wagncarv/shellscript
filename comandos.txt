@@ -97,6 +97,7 @@ fgrep - regex sem metacaracteres
 cut - corta pedaços da saída de exibição
 tr - substitui um caractere por outro - ex.: grep root /etc/passwd | tr ":" "_"
 sed - editor de texto. sintaxe: sed [endereço][ação][arquivo]:
+    ## AÇÕES sed ##
     d - deletar
     p - imprime novamente a linha ou palavra
     b - não faça nada nestas linhas
@@ -104,9 +105,24 @@ sed - editor de texto. sintaxe: sed [endereço][ação][arquivo]:
     s - substitui uma palavra por outra
     -n - silencia o sed , mostrando apenas a linha que combina
     ! - negação
-awk - 
+    ## FIM AÇÕES sed ##
 
-## EXEMPLOS
+    ## EXEMPLOS sed:
+    a) sed '/duas/d' numero.txt
+    b) sed '2d' numero.txt
+    c) sed '/duas/p' numero.txt
+    d)  sed '4p' numero.txt
+    e) sed '2,9 s/^/--->/' numero.txt
+    f) sed '/duas/,9 s/^/--->/' numero.txt
+    g) sed 's/pastas/casas/' numero.txt
+    h) sed '2,5! d' numero.txt
+awk - editor de texto
+    ## EXEMPLOS awk:
+    a) cat awk.txt | awk -F"." '{print $1}'
+    b) cat awk.txt | awk -F"." '{print substr($1, 1, 2)}'
+    ## FIM EXEMPLOS awk:
+
+## EXEMPLOS COMANDOS:
 a) grep --color root /etc/passwd
 b) grep --color -i sql /etc/passwd
 c) grep -o -i sql /etc/passwd
