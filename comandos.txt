@@ -94,7 +94,7 @@ done
 grep - com ou sem regex
 egrep - regex completas
 fgrep - regex sem metacaracteres
-cut - 
+cut - corta pedaços da saída de exibição
 tr - 
 sed -
 awk - 
@@ -102,8 +102,19 @@ awk -
 ## EXEMPLOS
 grep [palavra-chave] [arquivo]
 a) grep --color root /etc/passwd
-b) 
+b) grep --color -i sql /etc/passwd
+c) grep -o -i sql /etc/passwd
 
+11 - USUÁRIO:
+##EXPLICAÇÃO
+postgres:x:26:26:PostgreSQL Server:/var/lib/pgsql:/bin/bash
+nome do usuário: postgres
+possui senha: x
+ID do usuário: 26
+ID grupo de usuário: 26
+Comentário: PostgreSQL Server
+Home usuário: /var/lib/pgsql
+Shell do usuário: /bin/bash
 
 
 
