@@ -1,0 +1,16 @@
+gato
+rato
+pato
+prato
+sapato
+
+192.168.100.1
+88.201.10.3
+10.10.23.23
+
+aa.bbb.cc.cc
+
+SQL Server
+MySQL
+PostgreSQL
+sql é banco de dados
