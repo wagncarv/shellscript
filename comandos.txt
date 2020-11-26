@@ -142,5 +142,11 @@ Comentário: PostgreSQL Server
 Home usuário: /var/lib/pgsql
 Shell do usuário: /bin/bash
 
+22 - REGEX (EXPRESSÕES REGULARES)
+
+.       ponto           representa um caractere qualquer
+[...]   listar          lista de caracteres permitidos
+[^...]  lista negada    lista de caracteres proibidos
+
 
 
