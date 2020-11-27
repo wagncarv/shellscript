@@ -1,0 +1,67 @@
+BACK TRACK
+Backtrack é um sistema operacional Linux baseado no Ubuntu, focado em testes de seguranças e testes de penetração (pen tests), muito apreciada por hackers e analistas de segurança, podendo ser iniciado diretamente pelo CD (sem necessidade de instalar em disco), mídia removível (pendrive), máquinas virtuais ou direto no disco rígido. Atualmente BackTrack consiste de mais de 300 ferramentas diferentes e atualizadas, que são logicamente estruturadas de acordo com o fluxo de trabalho de profissionais de segurança. Essa estrutura permite até novatos encontrar as ferramentas relacionadas a uma tarefa específica para ser cumprida. Novas tecnologias e técnicas de teste são combinadas no BackTrack o mais rápido possível para mantê-lo atualizado. Algumas de suas ferramentas são:
+Coleta de Informações
+Ass / bom
+DMitry / bom
+DNS-Ptr / limitado
+dnswalk / bom
+dns-bruteforce / bom
+dnsenum / bom
+dnsmap / limitado
+DNSPredict / excelente 
+Finger Google / excelente
+Firewalk / excelente
+Goog Mail Enum / bom
+Google-search / bom
+Googrape / limitado
+Gooscan / bom
+IKEProbe / bom
+Netdiscover / bom
+Nmap / excelente
+NmapFE / excelente
+UnicornScan pgsql 0.4.6e module version 1.03 / excelente
+XProbe2 / excelente
+
+Identificação de vulnerabilidade
+Cisco Auditing Tool / limitado
+Cisco Enable Bruteforcer / bom
+Cisco Global Exploiter / bom
+Cisco OCS Mass Scanner / bom
+Cisco Scanner / excelente
+Cisco Torch / bom
+Curl / bom
+Fuzzer 1.2/ excelente 
+GFI LanGuard 2.0 / excelente
+GetSids / bom
+HTTP PUT / limitado
+Halberd / limitado
+Httprint/ bom 
+Httprint GUI / excelente
+Mezcal HTtp://S / limitado
+Mibble MIB Browser / excelente
+SMB Bruteforcer / excelente
+SMB Client / bom
+SMB Serverscan / excelente
+SMB-NAT / bom
+SMBdumpusers / bom
+SMBgetserverinfo / bom
+SNMP Scanner / excelente
+SNMP Walk / bom
+SQL Inject / excelente
+SQL Scanner / excelente
+SQLLibf / bom
+SQLbrute / bom
+sqlanlz / excelente
+sqldict / excelente
+sqldumplogins / bom 
+sqlquery / bom
+sqlupload / excelente
+
+Para explorar essas ferramentas em sua plenitude é fundamental o conhecimento de algus conceitos de redes e serviços. Abaixo estão listadas alguns dos principais serviços com suas respectivas portas padrão.
+
+ftp-data (20) transferência de arquivos; ftp (21) transferência de arquivos; ssh (22) protocolo de acesso remoto
+telnet (23) acesso remoto; smtp (25) serviço de envio de e-mail; DNS (53) domain name server; 
+http (80) WWW; kerberos (88) autenticação remota; pop2 (109) Post Office Protocol: acesso a e-mails;
+pop3 (110) Post Office Protocol: acesso a e-mails; netbios-ns (137) NETBIOS Name Server;netbios-dgm (138) NETBIOS Datagrama Service; netebios-ssn (139) NETBIOS Session Service; snmp (161) simple network management protocol; snmptrap (162); https (ssl) (443) HTTP sobre SSL; smtps (465) SMTP sobre SSL; SQL Monitor (1512) Microsoft Windows Name Service
+mysql; 
+
