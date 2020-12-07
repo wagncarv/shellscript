@@ -174,5 +174,16 @@ $       cifrão          fim de linha
 \b      borda           início ou fim de palavra
 ## FIM ÂNCORAS
 
+23 - FUNÇÕES
+
+## EXEMPLOS ##
+#!/bin/bash
+mostrar(){
+    ls -l
+    sleep 4
+    clear
+}
+## FIM EXEMPLOS ##
+
 
 
