@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ip(){
-    pinh -c1 $site | sed -n '2p' | grep -Eo '\(.+\)' | grep -Eo '[a-z0-9:.]+'
+    ping -c1 $site | sed -n '2p' | grep -Eo '\(.+\)' | grep -Eo '[a-z0-9:.]+'
 }
 
 cnpj(){
@@ -11,10 +11,10 @@ cnpj(){
 redirect(){
     wget -b -p $site
     sleep 3
-    grep -Eo 'href\=\"https?\:\/\/w{3}\..*\..{2,3}"' $site/index.* | cut -d"\" -f2 | grep -E 'https?'
+    grep -Eo 'href\=\"https?\:\/\/w{3}\..*\..{2,3}' $site/index.* | cut -d"\"" -f2 | grep -E 'https?'
 }
 
-while true;do:
+while true;do
 echo "Digite site alvo: "
 read site
 echo " "
@@ -32,7 +32,7 @@ case $opcao in
     3) redirect
         ;;
     *) echo "Consulta inválida"
-        ;;
+        ;;  
 esac
 done
 

@@ -1,0 +1,57 @@
+--2020-12-06 22:43:42--  http://www.google.com/
+Resolvendo www.google.com (www.google.com)... 2800:3f0:4004:806::2004, 172.217.29.36
+Conectando-se a www.google.com (www.google.com)|2800:3f0:4004:806::2004|:80... conectado.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: não especificada [text/html]
+Salvando em: “www.google.com/index.html”
+
+     0K .......... ....                                        2,32M=0,006s
+
+2020-12-06 22:43:42 (2,32 MB/s) - “www.google.com/index.html” salvo [14457]
+
+Carregando robots.txt; por favor ignore qualquer erro.
+--2020-12-06 22:43:42--  http://www.google.com/robots.txt
+Reaproveitando a conexão existente para [www.google.com]:80.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: 7158 (7,0K) [text/plain]
+Salvando em: “www.google.com/robots.txt”
+
+     0K ......                                                100% 1,57M=0,004s
+
+2020-12-06 22:43:42 (1,57 MB/s) - “www.google.com/robots.txt” salvo [7158/7158]
+
+--2020-12-06 22:43:42--  http://www.google.com/images/nav_logo229.png
+Reaproveitando a conexão existente para [www.google.com]:80.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: 12263 (12K) [image/png]
+Salvando em: “www.google.com/images/nav_logo229.png”
+
+     0K .......... .                                          100% 1,54M=0,008s
+
+2020-12-06 22:43:42 (1,54 MB/s) - “www.google.com/images/nav_logo229.png” salvo [12263/12263]
+
+--2020-12-06 22:43:42--  http://www.google.com/logos/doodles/2020/december-holidays-days-2-30-6753651837108830.3-law.gif
+Reaproveitando a conexão existente para [www.google.com]:80.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: 129754 (127K) [image/gif]
+Salvando em: “www.google.com/logos/doodles/2020/december-holidays-days-2-30-6753651837108830.3-law.gif”
+
+     0K .......... .......... .......... .......... .......... 39% 1022K 0s
+    50K .......... .......... .......... .......... .......... 78%  680K 0s
+   100K .......... .......... ......                          100%  649K=0,2s
+
+2020-12-06 22:43:42 (774 KB/s) - “www.google.com/logos/doodles/2020/december-holidays-days-2-30-6753651837108830.3-law.gif” salvo [129754/129754]
+
+--2020-12-06 22:43:42--  http://www.google.com/textinputassistant/tia.png
+Reaproveitando a conexão existente para [www.google.com]:80.
+A requisição HTTP foi enviada, aguardando resposta... 200 OK
+Tamanho: 258 [image/png]
+Salvando em: “www.google.com/textinputassistant/tia.png”
+
+     0K                                                       100% 16,9M=0s
+
+2020-12-06 22:43:42 (16,9 MB/s) - “www.google.com/textinputassistant/tia.png” salvo [258/258]
+
+FINALIZADO --2020-12-06 22:43:42--
+Tempo total decorrido: 0,8s
+Baixados: 5 arquivos, 160K em 0,2s (882 KB/s)
